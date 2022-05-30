@@ -1,0 +1,7 @@
+.listPhotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    justify-items: center;
+    margin: 15px 30px;
+}

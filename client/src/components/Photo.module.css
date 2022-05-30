@@ -1,0 +1,31 @@
+.container {
+    padding: 10px;
+    border: solid 2px gray;
+}
+
+.wrapper_liked {
+    display: flex;
+    gap: 15px;
+}
+
+.liked {
+    display: inline-block;
+}
+
+.liked svg {
+    width: 32px;
+    height: 32px;
+}
+
+.liked svg g:hover {
+    fill: #dc143c;
+}
+
+.liked_add svg g {
+    fill: #dc143c;
+}
+
+.picture {
+    width: 550px;
+    height: 350px;
+}
